@@ -23,6 +23,7 @@ Implementation Notes
 
 import math
 import displayio
+
 try:
     from vectorio import VectorShape, Rectangle
 except ImportError:
