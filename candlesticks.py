@@ -22,10 +22,10 @@ Implementation Notes
 # pylint: disable=too-many-locals, too-many-statements, invalid-name, too-few-public-methods
 
 import math
-import displayio
 
 try:
     from vectorio import VectorShape, Rectangle
+    import displayio
 except ImportError:
     pass
 
