@@ -23,6 +23,8 @@ Introduction
 
 Graphical representation of the stock movement in candlestick form
 
+.. image:: https://user-images.githubusercontent.com/34255413/113015855-ef66d280-914b-11eb-9bc4-6b524bcfdef2.png
+
 
 Dependencies
 =============
