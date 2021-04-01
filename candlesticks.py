@@ -22,13 +22,8 @@ Implementation Notes
 # pylint: disable=too-many-locals, too-many-statements, invalid-name, too-few-public-methods
 
 import math
-
-try:
-    from vectorio import VectorShape, Rectangle
-    import displayio
-except ImportError:
-    pass
-
+import displayio
+from vectorio import VectorShape, Rectangle
 
 __version__ = "0.0.0-auto.0"
 __repo__ = "https://github.com/jposada202020/CircuitPython_Candlesticks.git"
