@@ -3,7 +3,7 @@ Introduction
 
 
 .. image:: https://readthedocs.org/projects/circuitpython-candlesticks/badge/?version=latest
-    :target: https://circuitpython-candlesticks.readthedocs.io/
+    :target: https://circuitpython-candlesticks.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 
