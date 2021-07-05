@@ -6,9 +6,11 @@
 This is a simple example of the use of the class candlestick.
 """
 
+# import candlesticks_simpletest
+
 import displayio
 import board
-from CircuitPython_Candlesticks.candlesticks import Candlestick
+from candlesticks import Candlestick
 
 display = board.DISPLAY
 
@@ -20,7 +22,6 @@ my_candle = Candlestick(
     5,
     color_green=0x00FF00,
     color_red=0xFF0000,
-    color_line=0xFFFFFF,
     screen_ref=180,
 )
 
@@ -32,7 +33,6 @@ my_candle2 = Candlestick(
     25,
     color_green=0x00FF00,
     color_red=0xFF0000,
-    color_line=0xFFFFFF,
     screen_ref=180,
 )
 
@@ -44,7 +44,6 @@ my_candle3 = Candlestick(
     25,
     color_green=0x00FF00,
     color_red=0xFF0000,
-    color_line=0xFFFFFF,
     screen_ref=180,
 )
 
@@ -56,7 +55,6 @@ my_candle4 = Candlestick(
     15,
     color_green=0x00FF00,
     color_red=0xFF0000,
-    color_line=0xFFFFFF,
     screen_ref=180,
 )
 my_candle5 = Candlestick(
@@ -67,7 +65,6 @@ my_candle5 = Candlestick(
     30,
     color_green=0x00FF00,
     color_red=0xFF0000,
-    color_line=0xFFFFFF,
     screen_ref=180,
 )
 

@@ -119,7 +119,7 @@ class Candlestick:
         screen_ref: int = 180,
     ) -> None:
 
-        self._my_group = displayio.Group(max_size=4)
+        self._my_group = displayio.Group()
         self._dist_x = dist_x
         self.bitmap = displayio.Bitmap(high - low, 12, 5)
         self._candlestick_palette = displayio.Palette(2)
