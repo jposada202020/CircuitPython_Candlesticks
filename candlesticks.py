@@ -79,7 +79,7 @@ class Candlestick:
     .. code-block:: python
 
         my_candle = Candlestick(100, 60, 30, 80, 5)
-        my_group = displayio.Group(max_size=10) # make a group that can hold 10 items
+        my_group = displayio.Group() # make a group
         my_group.append(my_plane) # Add my_plane to the group
 
         #
