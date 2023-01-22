@@ -23,7 +23,7 @@ Implementation Notes
 
 import math
 import displayio
-from vectorio import VectorShape, Rectangle
+from vectorio import Rectangle
 
 __version__ = "0.0.0-auto.0"
 __repo__ = "https://github.com/jposada202020/CircuitPython_Candlesticks.git"
@@ -153,30 +153,37 @@ class Candlestick:
         if top_line_height == 0:
             top_line_height = 1
 
-        top_line = VectorShape(
-            shape=Rectangle(1, top_line_height),
+        top_line = Rectangle(
             pixel_shader=self.body_palette,
+            width=1,
+            height=top_line_height,
             x=self._dist_x,
             y=self.screen_ref - self._high,
+            color_index=1,
         )
 
         body_height = int(math.fabs(self._top - self._bottom))
-        body = VectorShape(
-            shape=Rectangle(10, body_height),
+
+        body = Rectangle(
             pixel_shader=self.body_palette,
+            width=10,
+            height=body_height,
             x=self._dist_x - 5,
             y=self.screen_ref - self._top,
+            color_index=1,
         )
 
         bottom_line_height = int(math.fabs(self._bottom - self._low))
         if bottom_line_height == 0:
             bottom_line_height = 1
 
-        bottom_line = VectorShape(
-            shape=Rectangle(1, bottom_line_height),
+        bottom_line = Rectangle(
             pixel_shader=self.body_palette,
+            width=1,
+            height=bottom_line_height,
             x=self._dist_x,
             y=self.screen_ref - self._bottom,
+            color_index=1,
         )
 
         self._my_group.append(top_line)
