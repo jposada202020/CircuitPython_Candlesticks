@@ -51,5 +51,5 @@ setup(
     keywords="adafruit blinka circuitpython micropython candlesticks stock market displayio",
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    py_modules=["candlesticks"],
+    py_modules=["circuitpython_Candlesticks"],
 )

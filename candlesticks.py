@@ -52,7 +52,7 @@ class Candlestick:
 
     **Quickstart: Importing and using Candlestick**
 
-    Here is one way of importing the `Candlestick` class so you can use it as
+    Here is one way of importing the `Candlestick` class, so you can use it as
     the name ``my_candle``:
 
     .. code-block:: python
@@ -66,7 +66,7 @@ class Candlestick:
 
         my_candle = Candlestick(100, 60, 30, 80, 5)
 
-    Once you setup your display, you can now add ``my_candle`` to your display using:
+    Once you set up your display, you can now add ``my_candle`` to your display using:
 
     .. code-block:: python
 
