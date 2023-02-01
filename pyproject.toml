@@ -11,17 +11,20 @@ requires = [
 
 [project]
 name = "circuitpython-Candlesticks"
-description = "CircuitPython library to draw Stock Market Candlesticks."
+description = "CandleSticks for CircuitPython"
 version = "0.0.0+auto.0"
 readme = "README.rst"
 authors = [
     {name = "Jose D. Montoya", email = "candlesticks@mailmeto.mozmail.com"}
 ]
-urls = {Homepage = "https://github.com/jposada202020/CircuitPython_Candlesticks"}
+urls = {Homepage = "https://github.com/jposada202020/CircuitPython_ArrowLine.git"}
 keywords = [
     "hardware",
     "micropython",
     "circuitpython",
+    "stock",
+    "market",
+    "candlesticks"
 ]
 license = {text = "MIT"}
 classifiers = [
@@ -35,7 +38,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-modules = ["CircuitPython_Candlesticks"]
+py-modules = ["circuitpython_Candlesticks"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
