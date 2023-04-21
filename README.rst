@@ -7,15 +7,18 @@ Introduction
     :alt: Documentation Status
 
 
-.. image:: https://img.shields.io/discord/327254708534116352.svg
-    :target: https://adafru.it/discord
-    :alt: Discord
-
-
 .. image:: https://github.com/jposada202020/CircuitPython_Candlesticks/workflows/Build%20CI/badge.svg
     :target: https://github.com/jposada202020/CircuitPython_Candlesticks/actions
     :alt: Build Status
 
+
+.. image:: https://img.shields.io/pypi/v/circuitpython-candlesticks.svg
+    :alt: latest version on PyPI
+    :target: https://pypi.python.org/pypi/circuitpython-candlesticks
+
+.. image:: https://static.pepy.tech/personalized-badge/circuitpython-candlesticks?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Pypi%20Downloads
+    :alt: Total PyPI downloads
+    :target: https://pepy.tech/project/circuitpython-candlesticks
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
