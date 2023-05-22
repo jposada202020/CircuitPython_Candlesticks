@@ -5,9 +5,6 @@
 """
 This is a simple example of the use of the class candlestick.
 """
-
-# import candlesticks_simpletest
-
 import displayio
 import board
 from candlesticks import Candlestick
