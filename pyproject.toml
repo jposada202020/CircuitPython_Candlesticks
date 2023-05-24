@@ -15,7 +15,7 @@ description = "CandleSticks for CircuitPython"
 version = "0.0.0+auto.0"
 readme = "README.rst"
 authors = [
-    {name = "Jose D. Montoya", email = "candlesticks@mailmeto.mozmail.com"}
+    {name = "JDM", email = "jdm@mozmail.com"}
 ]
 urls = {Homepage = "https://github.com/jposada202020/CircuitPython_ArrowLine.git"}
 keywords = [
