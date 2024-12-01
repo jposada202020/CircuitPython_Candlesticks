@@ -38,7 +38,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-modules = ["circuitpython_Candlesticks"]
+py-modules = ["candlesticks"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
